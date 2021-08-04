@@ -1,0 +1,14 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+
+  & a {
+    text-decoration: none;
+    margin-right: 3%;
+    margin-top: 2%;
+    border-radius: 7px;
+    background-color: red;
+    color: white;
+    padding: 15px;
+  }
+}
